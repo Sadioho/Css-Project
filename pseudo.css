@@ -1,0 +1,8 @@
+.button-join:hover{
+    background-color: rgb(243, 113, 90);
+}
+.button-search:hover{
+    background-color: cadetblue;
+    color: white;
+    transition: 0.5s;
+}
