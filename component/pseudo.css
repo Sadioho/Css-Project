@@ -1,0 +1,19 @@
+.button-join:hover{
+    background-color: rgb(243, 113, 90);
+}
+.button-search:hover{
+    background-color: cadetblue;
+    color: white;
+    transition: 0.5s;
+}
+.get-start:hover{
+    border: 2px solid rgb(230, 228, 228);
+}
+.item:hover{
+  box-shadow:  0 0 2px 0 rgba(46,62,72,.1), 0 2px 4px 0 rgba(46,62,72,.1);
+  transform: scale(1.01);
+}
+
+.end p:hover {
+    color: rgba(253, 253, 253, 0.507);
+}

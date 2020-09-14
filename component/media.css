@@ -1,0 +1,8 @@
+@media screen and (max-width: 770px) {
+  body {
+    background-color: rgb(0, 161, 214);
+  }
+  .container {
+    width: 700px;
+  }
+}

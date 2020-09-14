@@ -1,0 +1,127 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 120px;
+}
+.header .logo img{
+  width: 100%;
+}
+.acount .link {
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+/*  */
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content-1 {
+  flex-basis: 25%;
+}
+.content-1 .heading {
+  font-size: 60px;
+  font-weight: bold;
+}
+.button-join {
+  padding: 20px 30px;
+  border: none;
+  color: white;
+  background-color: tomato;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.content .content-2 .img-content-2 {
+  width: 500px;
+}
+
+/*  */
+
+.form-search {
+  width: 900px;
+
+  padding: 20px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.3);
+}
+.form {
+  flex-grow: 1;
+  display: flex;
+}
+.input-find {
+  padding: 15px;
+  border: 1px solid grey;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+}
+
+.input-address {
+  padding: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  border: 1px solid grey;
+}
+.form .input-find {
+  flex-grow: 1;
+}
+.button-search {
+  padding: 0 40px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 20px;
+  border: 1px solid rgb(19, 131, 19);
+  border-radius: 5px;
+}
+
+/*  */
+.item {
+  margin-top: 100px;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow:  0 0 2px 0 rgba(46,62,72,.12), 0 2px 4px 0 rgba(46,62,72,.12);
+  transition: all 0.3s;
+  transform: scale(1) ;
+
+}
+.item-content-1 {
+  width: 80px;
+  margin-right: 20px;
+}
+.item-content-1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+
+/*  */
+.get-start{
+  margin-top: 100px;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+/* container */
+
